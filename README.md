@@ -34,4 +34,5 @@ The application is built with
 
 ### Deployment
 
+https://n-queens-visualizer-sameer.vercel.app
 
