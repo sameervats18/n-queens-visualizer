@@ -1,0 +1,16 @@
+#cell {
+    display: grid;
+    place-items: center;
+    height: 100px;
+    width: 100px;
+}
+
+.queen {
+    display: grid;
+    place-items: center;
+}
+
+.queen img {
+    height: 80px;
+    width: 80px;
+}

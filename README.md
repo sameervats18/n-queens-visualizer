@@ -1,0 +1,37 @@
+
+# N Queen Visualization  
+  
+### Problem Statement  
+  
+Place N (N = 4 or 8) queens in a chess board of size N X N, in a such a way that no two queens can attack each other.
+  
+That means  
+  
+- Two queens should not be in the same row  
+- Two queens should not be in the same column  
+- Two queens should not be in the same diagonal  
+  
+### Solution  
+  
+This is a visualization of the N Queen problem made with react. Using *backtracking* and *dynamic programming*. observe how we reach to the solution by placing the queens strategically to find the answer in the most optimize way.
+  
+- **Time Complexity** : O(N<sup>2</sup>)
+- **Space Complexity** : O(N<sup>2</sup>) 
+
+### Technical Specification
+
+The application is built with 
+
+1. React
+2. CSS
+3. Vite
+
+### Demo
+
+<p align="center">
+    <img src="./screenshots/demo.gif" alt="demo" />
+</p>
+
+### Deployment
+
+

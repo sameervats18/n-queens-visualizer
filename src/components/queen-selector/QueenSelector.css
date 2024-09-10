@@ -1,0 +1,47 @@
+#QueenSelector {
+    display: inline-block;
+}
+
+.selector {
+    background: none;
+    border: none;
+    outline: none;
+    padding: 0 0.5rem;
+    font-size: var(--small-font-size);
+    cursor: pointer;
+    color: var(--unselected-color);
+}
+
+.selector:focus, .selector:active {
+    border: none;
+    outline: none;
+}
+
+.selector:disabled {
+    color: var(--disabled-color);
+    cursor: not-allowed;
+    border: none;
+}
+
+.selected {
+    color: var(--font-color);
+}
+
+.selected span {
+    transition: var(--animation-delay) ease-in-out;
+    animation: border-animation var(--animation-delay) ease-in-out forwards;
+}
+
+.selected:disabled span {
+    border-bottom: 3px dotted var(--border-color-light) !important;
+}
+
+@keyframes border-animation {
+    from {
+        border-bottom: 0;
+    }
+
+    to {
+        border-bottom: 3px solid var(--border-color);
+    }
+}
